@@ -1,0 +1,70 @@
+{
+    "name": "elcomercio",
+    "settings": {},
+    "xdsVersion": "2.2.2",
+    "xdsBuild": 991,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000503,
+    "framework": "ext42",
+    "topInstanceFileMap": {
+        "432b1393-3f79-4c77-9db0-f4bbb0dfc51f": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "37fa4bfa-d5d5-4192-86a1-8dbad75b3f64": {
+            "paths": [
+                "metadata/view/MyViewport",
+                "app/view/override/MyViewport.js",
+                "app/view/MyViewport.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyViewport"
+        },
+        "f67f5986-9298-4fea-9baa-a35847a6984a": {
+            "paths": [
+                "metadata/store/Noticias",
+                "app/store/override/Noticias.js",
+                "app/store/Noticias.js"
+            ],
+            "className": "Noticias"
+        },
+        "97312635-ee46-4576-a73a-8323e9b221c6": {
+            "paths": [
+                "metadata/model/Noticia",
+                "app/model/override/Noticia.js",
+                "app/model/Noticia.js"
+            ],
+            "className": "Noticia"
+        },
+        "87253a3f-cb5a-45ca-b6eb-7b0ae91a6808": {
+            "paths": [
+                "metadata/controller/MyController",
+                "app/controller/override/MyController.js",
+                "app/controller/MyController.js"
+            ],
+            "className": "MyController"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "37fa4bfa-d5d5-4192-86a1-8dbad75b3f64"
+        ],
+        "store": [
+            "f67f5986-9298-4fea-9baa-a35847a6984a"
+        ],
+        "controller": [
+            "87253a3f-cb5a-45ca-b6eb-7b0ae91a6808"
+        ],
+        "model": [
+            "97312635-ee46-4576-a73a-8323e9b221c6"
+        ],
+        "resource": [
+            "432b1393-3f79-4c77-9db0-f4bbb0dfc51f"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

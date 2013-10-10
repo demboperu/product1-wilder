@@ -1,0 +1,98 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyViewport",
+        "designer|initialView": true,
+        "layout": "border"
+    },
+    "designerId": "37fa4bfa-d5d5-4192-86a1-8dbad75b3f64",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|collapseMode": "header",
+                "layout|region": "north",
+                "height": 131
+            },
+            "designerId": "9bf3e4ee-d100-4e2f-bb57-6571593cf287",
+            "cn": [
+                {
+                    "type": "Ext.Img",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 88,
+                        "width": 418,
+                        "src": "resources/images/logoec.jpg"
+                    },
+                    "designerId": "aac2c1e3-e10b-43a8-8542-36e32056c381"
+                }
+            ]
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "north",
+                "height": 128
+            },
+            "designerId": "096ef606-817d-4f49-ae2e-d4f32a176a74"
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "east",
+                "width": 229
+            },
+            "designerId": "ab06f423-3776-4270-85fd-3a896823b96d"
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "west",
+                "width": 440
+            },
+            "designerId": "0ad84e38-46ed-4700-a05e-fe54e1326478"
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "south",
+                "height": 168
+            },
+            "designerId": "d28de97b-d60e-4e0c-af70-53479342127a"
+        }
+    ]
+}

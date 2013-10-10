@@ -1,0 +1,12 @@
+{
+    "type": "class",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Noticia"
+    },
+    "designerId": "97312635-ee46-4576-a73a-8323e9b221c6"
+}
