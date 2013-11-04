@@ -1,0 +1,358 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "cls": "vwpmain",
+        "itemId": "VwpMain",
+        "designer|userClassName": "VwpMain",
+        "designer|initialView": true
+    },
+    "designerId": "520c625c-823a-483a-902a-7ae1029efdaa",
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|snapToGrid": 10,
+                "cls": "cont_1",
+                "height": null,
+                "id": "cnt_1",
+                "layout": "absolute"
+            },
+            "designerId": "e087a61f-b628-41f1-9d5d-68658cccfdf3",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": "cont_header",
+                        "frame": false,
+                        "height": null,
+                        "id": "cntHeader",
+                        "width": null,
+                        "layout": "table"
+                    },
+                    "designerId": "649b6ee6-3366-43d6-88e0-8f86b9e3c95f",
+                    "cn": [
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": "cont_logo",
+                                "id": "cntLogo",
+                                "width": null
+                            },
+                            "designerId": "e872613f-7ccd-4b61-b5f6-d70fc731033b",
+                            "cn": [
+                                {
+                                    "type": "Ext.Img",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "height": null,
+                                        "id": "imgLogo",
+                                        "width": null,
+                                        "src": "img/logo_elComercio.jpg"
+                                    },
+                                    "designerId": "f103843c-6275-44b2-a3f7-5ba7870e7421"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|snapToGrid": 10,
+                                "cls": "cont_options",
+                                "id": "cntOptions",
+                                "rtl": null,
+                                "width": null,
+                                "layout": "absolute"
+                            },
+                            "designerId": "6b1ddc49-a375-407b-bac6-106893f43ae3",
+                            "cn": [
+                                {
+                                    "type": "Ext.form.field.ComboBox",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "id": "cmbSearchNews",
+                                        "width": 300,
+                                        "fieldLabel": "Label",
+                                        "hideLabel": true,
+                                        "hideTrigger": true,
+                                        "displayField": "title",
+                                        "store": "SearchNews"
+                                    },
+                                    "configAlternates": {
+                                        "listConfig": "object"
+                                    },
+                                    "designerId": "b8628338-0404-456b-bd18-0e393d6765f0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|snapToGrid": 10,
+                "cls": "cont_2",
+                "id": "cnt_2",
+                "layout": "absolute"
+            },
+            "designerId": "15e66e5b-d0f0-4341-9dd2-f783ad178e2b",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|snapToGrid": 10,
+                        "cls": "cont_body",
+                        "id": "cntBody",
+                        "layout": "absolute"
+                    },
+                    "designerId": "d355b653-d8ab-42ba-a03c-f962c0af27b7",
+                    "cn": [
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|snapToGrid": 10,
+                                "cls": "cnt_viewtop",
+                                "height": null,
+                                "id": "cntViewTop",
+                                "layout": "absolute"
+                            },
+                            "designerId": "6e5f59a3-d310-42cd-a477-c0d8936c54db",
+                            "cn": [
+                                {
+                                    "type": "Ext.view.View",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "border": null,
+                                        "cls": "lvw_top",
+                                        "height": null,
+                                        "id": "lvwTop",
+                                        "width": null,
+                                        "itemSelector": "div.thumb-wrap",
+                                        "store": "NewsList"
+                                    },
+                                    "designerId": "5a1a0dc8-cde1-4b20-b1d9-f31e775cd9c8",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.XTemplate",
+                                            "reference": {
+                                                "name": "itemTpl",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "implHandler": [
+                                                    "<tpl for=\".\">",
+                                                    "    <div class=\"thumb-wrap\" id=\"top_{id}\">",
+                                                    "        <a href=\"{link}\" title=\"img-{id}\">",
+                                                    "            <img src=\"{img}\" title=\"img-{id}\">",
+                                                    "        </a>",
+                                                    "        <div class=\"lostextos\">",
+                                                    "            <p class=\"ptxt\">",
+                                                    "                <a class=\"ltxt\" href=\"{link}\" >",
+                                                    "                    {title}",
+                                                    "                </a>",
+                                                    "            </p>",
+                                                    "        </div>",
+                                                    "    </div>",
+                                                    "</tpl>"
+                                                ],
+                                                "designer|displayName": "itemTpl"
+                                            },
+                                            "designerId": "444a7555-16c3-49b4-a78e-a9b07b02bb88"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|y": 310,
+                                "cls": "cnt_center",
+                                "height": null,
+                                "id": "cntCenter",
+                                "layout": "column"
+                            },
+                            "designerId": "873d26cc-34ff-4d4b-a469-4bd4e5f3434e",
+                            "cn": [
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "split": "true",
+                                        "collapsible": "true",
+                                        "cls": "cnt_viewleft",
+                                        "height": null,
+                                        "id": "cntViewLeft",
+                                        "width": null,
+                                        "layout": "border"
+                                    },
+                                    "designerId": "b518c0de-2cbe-4468-b704-5f6843e42870",
+                                    "customConfigs": [
+                                        {
+                                            "group": "(Custom Properties)",
+                                            "name": "split",
+                                            "type": "string"
+                                        },
+                                        {
+                                            "group": "(Custom Properties)",
+                                            "name": "collapsible",
+                                            "type": "string"
+                                        }
+                                    ],
+                                    "cn": [
+                                        {
+                                            "type": "Ext.container.Container",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|region": "north",
+                                                "height": null,
+                                                "id": "cntViewTop1"
+                                            },
+                                            "designerId": "ed071c14-e0a9-44ec-abaf-036ceb115d78"
+                                        },
+                                        {
+                                            "type": "Ext.container.Container",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|region": "west",
+                                                "id": "cntViewLeft1",
+                                                "width": null
+                                            },
+                                            "designerId": "c5c8fad5-fc28-4edc-9fc9-7e650e2f76ec"
+                                        },
+                                        {
+                                            "type": "Ext.container.Container",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|region": "east",
+                                                "id": "cntViewRight1",
+                                                "width": null
+                                            },
+                                            "designerId": "ea7c577e-441e-4216-bfb5-dd1326376ac5"
+                                        },
+                                        {
+                                            "type": "Ext.form.Label",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|region": "center",
+                                                "text": "My Label"
+                                            },
+                                            "designerId": "862d2264-f2ff-4746-8fad-e801f35c577c"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Ext.container.Container",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "cls": "cnt_viewright",
+                                        "id": "cntViewRight",
+                                        "width": null
+                                    },
+                                    "designerId": "b74e9582-4c44-4a8d-83aa-16b4c6363da2",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.form.Label",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "text": "My Labeldssd sfdsf sd  sfsdf wferwd weg"
+                                            },
+                                            "designerId": "c0fa08b1-8265-40cb-9e2e-d413723889c6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "SearchNew"
+    },
+    "designerId": "b7b924fc-7ab3-4353-a6d6-34720ae8ea7d",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "mapping": "post_id",
+                "name": "id"
+            },
+            "designerId": "48bb1a17-c6ee-4321-9a73-560887472212"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "mapping": "topic_title",
+                "name": "title"
+            },
+            "designerId": "6c811cc0-3c24-45f3-8723-222d2110e97b"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "mapping": "topic_id",
+                "name": "topicId"
+            },
+            "designerId": "ce34c42a-11b6-4727-bbae-a5aee01a3571"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "mapping": "author",
+                "name": "author"
+            },
+            "designerId": "9d85dd81-75a1-450b-813b-9f6054e4a5a2"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dateFormat": "timestamp",
+                "mapping": "post_time",
+                "name": "lastPost",
+                "type": "date"
+            },
+            "designerId": "fdeba0d2-cda8-4af8-be1b-08dc01d0fcee"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "mapping": "post_text",
+                "name": "excerpt"
+            },
+            "designerId": "2ecae049-1586-4cb2-b2df-fea9fdc5b559"
+        }
+    ]
+}

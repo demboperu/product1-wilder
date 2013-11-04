@@ -6,11 +6,12 @@
     },
     "codeClass": null,
     "userConfig": {
-        "views": [
-            "MyViewport"
+        "stores": [
+            "ElComercio.model.New"
         ],
+        "autoCreateViewport": true,
         "controllers": [
-            "MyController"
+            "New"
         ],
         "name": "ElComercio"
     },

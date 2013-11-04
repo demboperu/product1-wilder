@@ -1,0 +1,44 @@
+{
+    "type": "jsonpstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "model": "SearchNew",
+        "storeId": "SearchNews",
+        "designer|userClassName": "SearchNews",
+        "pageSize": 10
+    },
+    "designerId": "21038dac-dbb5-43c0-ac10-6afa343a1d8b",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.JsonP",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "http://www.sencha.com/forum/topics-remote.php"
+            },
+            "designerId": "3e531c45-1248-4033-9136-442af7086a65",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "topics",
+                        "totalProperty": "totalCount"
+                    },
+                    "designerId": "721e9755-0223-4470-98f4-5a9e4a4e2a41"
+                }
+            ]
+        }
+    ]
+}

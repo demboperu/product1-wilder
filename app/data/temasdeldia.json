@@ -1,0 +1,54 @@
+{
+	"tag": "temasdeldia",
+	"news": 
+		[
+			{
+				"id": 10,
+				"img": "http://www.diariolaprimeraperu.com/online/images/thum2013-5/140126-238x130_DiarioLaPrimeraPeru.com.jpg",
+				"title": "EE.UU y las reservas de cocaína usado como un arma de provocación",
+				"link": "http://www.diariolaprimeraperu.com/online/mundo/ee-uu-y-las-reservas-de-cocaina-usado-como-un-arma-de-provocacion_140126.html"
+			},
+			{
+				"id": 20,
+				"img": "http://www.diariolaprimeraperu.com/online/images/thum2013-5/140124-238x130_DiarioLaPrimeraPeru.com.jpg",
+				"title": "Los alimentos orgánicos necesariamente no son los más saludables",
+				"link": "http://www.diariolaprimeraperu.com/online/ciencia-y-salud/los-alimentos-organicos-necesariamente-no-son-los-mas-saludables_140124.html"
+			},
+			{
+				"id": 30,
+				"img": "http://www.diariolaprimeraperu.com/online/images/thum2013-5/140121-238x130_DiarioLaPrimeraPeru.com.jpg",
+				"title": "El cerebro elimina los residuos mientras duermes",
+				"link": "http://www.diariolaprimeraperu.com/online/ciencia-y-salud/el-cerebro-elimina-los-residuos-mientras-duermes_140121.html"
+			},
+			{
+				"id": 40,
+				"img": "http://www.diariolaprimeraperu.com/online/images/thum2013-5/140118-238x130_DiarioLaPrimeraPeru.com.jpg",
+				"title": "La publicidad del agua embotellada y el medio ambiente",
+				"link": "http://www.diariolaprimeraperu.com/online/ciencia-y-salud/la-publicidad-del-agua-embotellada-y-el-medio-ambiente_140118.html"
+			},
+			{
+				"id": 50,
+				"img": "http://www.diariolaprimeraperu.com/online/images/thum2013-5/140139-238x130_DiarioLaPrimeraPeru.com.jpg",
+				"title": "Cuidado: Parálisis facial, alteración del habla o mareos son señales de ataque cerebrovascular",
+				"link": "http://www.diariolaprimeraperu.com/online/ciencia-y-salud/cuidado-paralisis-facial-alteracion-del-habla-o-mareos-son-senales-de-ataque-cerebrovascular_140139.html"
+			},
+			{
+				"id": 60,
+				"img": "http://www.diariolaprimeraperu.com/online/images/thum2013-5/140132-238x130_DiarioLaPrimeraPeru.com.jpg",
+				"title": "Enfermedades no transmisibles son la causa del 75% de muertes en Perú y América Latina",
+				"link": "http://www.diariolaprimeraperu.com/online/locales/enfermedades-no-transmisibles-son-la-causa-del-75-de-muertes-en-peru-y-america-latina_140132.html"
+			},
+			{
+				"id": 70,
+				"img": "http://www.diariolaprimeraperu.com/online/images/thum2013-5/140136-238x130_DiarioLaPrimeraPeru.com.jpg",
+				"title": "Voto electrónico que se implementará en Perú está certificado internacionalmente",
+				"link": "http://www.diariolaprimeraperu.com/online/actualidad/voto-electronico-que-se-implementara-en-peru-esta-certificado-internacionalmente_140136.html"
+			},
+			{
+				"id": 80,
+				"img": "http://www.diariolaprimeraperu.com/online/images/thum2013-5/140127-238x130_DiarioLaPrimeraPeru.com.jpg",
+				"title": "¿Dónde cuesta menos y se consume más cannabis?",
+				"link": "http://www.diariolaprimeraperu.com/online/actualidad/donde-cuesta-menos-y-se-consume-mas-cannabis_140127.html"
+			}
+		]
+}

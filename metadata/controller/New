@@ -1,0 +1,43 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "New",
+            "SearchNew"
+        ],
+        "stores": [
+            "NewsList",
+            "SearchNews"
+        ],
+        "views": [
+            "VwpMain"
+        ],
+        "designer|userClassName": "New"
+    },
+    "designerId": "57e7b224-457c-44e7-baa8-3ea93298fcb5",
+    "cn": [
+        {
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "init",
+                "designer|params": [
+                    "application"
+                ],
+                "implHandler": [
+                    "console.log(\"...\");"
+                ]
+            },
+            "designerId": "42ad0efc-0feb-4ba1-adb0-511a06141358"
+        }
+    ]
+}

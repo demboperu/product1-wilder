@@ -1,67 +1,95 @@
 {
     "name": "elcomercio",
-    "settings": {},
-    "xdsVersion": "2.2.2",
-    "xdsBuild": 991,
+    "settings": {
+        "urlPrefix": "http://localhost/elcomercio/",
+        "exportPath": ""
+    },
+    "xdsVersion": "2.2.3",
+    "xdsBuild": 1039,
     "schemaVersion": 1,
     "upgradeVersion": 210000000503,
     "framework": "ext42",
     "topInstanceFileMap": {
-        "432b1393-3f79-4c77-9db0-f4bbb0dfc51f": {
+        "87dc5301-83d7-419b-9ba8-324abc61b7f6": {
             "paths": [
                 "metadata/resource/Library"
             ],
             "className": "Library"
         },
-        "37fa4bfa-d5d5-4192-86a1-8dbad75b3f64": {
+        "bcaa9ce5-6fcf-41a0-af33-2376a78d3e7b": {
             "paths": [
-                "metadata/view/MyViewport",
-                "app/view/override/MyViewport.js",
-                "app/view/MyViewport.js",
+                "metadata/resource/css"
+            ],
+            "className": "css"
+        },
+        "520c625c-823a-483a-902a-7ae1029efdaa": {
+            "paths": [
+                "metadata/view/VwpMain",
+                "app/view/override/VwpMain.js",
+                "app/view/VwpMain.js",
                 "app/view/Viewport.js"
             ],
-            "className": "MyViewport"
+            "className": "VwpMain"
         },
-        "f67f5986-9298-4fea-9baa-a35847a6984a": {
+        "57e7b224-457c-44e7-baa8-3ea93298fcb5": {
             "paths": [
-                "metadata/store/Noticias",
-                "app/store/override/Noticias.js",
-                "app/store/Noticias.js"
+                "metadata/controller/New",
+                "app/controller/override/New.js",
+                "app/controller/New.js"
             ],
-            "className": "Noticias"
+            "className": "New"
         },
-        "97312635-ee46-4576-a73a-8323e9b221c6": {
+        "50097fd7-5b92-482f-a55d-1124b06fbbb3": {
             "paths": [
-                "metadata/model/Noticia",
-                "app/model/override/Noticia.js",
-                "app/model/Noticia.js"
+                "metadata/model/New",
+                "app/model/override/New.js",
+                "app/model/New.js"
             ],
-            "className": "Noticia"
+            "className": "New"
         },
-        "87253a3f-cb5a-45ca-b6eb-7b0ae91a6808": {
+        "21f4ba7c-9c9a-452a-9761-1705edd013be": {
             "paths": [
-                "metadata/controller/MyController",
-                "app/controller/override/MyController.js",
-                "app/controller/MyController.js"
+                "metadata/store/NewsList",
+                "app/store/override/NewsList.js",
+                "app/store/NewsList.js"
             ],
-            "className": "MyController"
+            "className": "NewsList"
+        },
+        "21038dac-dbb5-43c0-ac10-6afa343a1d8b": {
+            "paths": [
+                "metadata/store/SearchNews",
+                "app/store/override/SearchNews.js",
+                "app/store/SearchNews.js"
+            ],
+            "className": "SearchNews"
+        },
+        "b7b924fc-7ab3-4353-a6d6-34720ae8ea7d": {
+            "paths": [
+                "metadata/model/SearchNew",
+                "app/model/override/SearchNew.js",
+                "app/model/SearchNew.js"
+            ],
+            "className": "SearchNew"
         }
     },
     "viewOrderMap": {
         "view": [
-            "37fa4bfa-d5d5-4192-86a1-8dbad75b3f64"
+            "520c625c-823a-483a-902a-7ae1029efdaa"
         ],
         "store": [
-            "f67f5986-9298-4fea-9baa-a35847a6984a"
+            "21f4ba7c-9c9a-452a-9761-1705edd013be",
+            "21038dac-dbb5-43c0-ac10-6afa343a1d8b"
         ],
         "controller": [
-            "87253a3f-cb5a-45ca-b6eb-7b0ae91a6808"
+            "57e7b224-457c-44e7-baa8-3ea93298fcb5"
         ],
         "model": [
-            "97312635-ee46-4576-a73a-8323e9b221c6"
+            "50097fd7-5b92-482f-a55d-1124b06fbbb3",
+            "b7b924fc-7ab3-4353-a6d6-34720ae8ea7d"
         ],
         "resource": [
-            "432b1393-3f79-4c77-9db0-f4bbb0dfc51f"
+            "87dc5301-83d7-419b-9ba8-324abc61b7f6",
+            "bcaa9ce5-6fcf-41a0-af33-2376a78d3e7b"
         ],
         "app": [
             "application"

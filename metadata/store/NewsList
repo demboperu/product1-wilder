@@ -1,0 +1,47 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "model": "New",
+        "storeId": "NewsList",
+        "designer|userClassName": "NewsList",
+        "requires": [
+            "ElComercio.model.New"
+        ]
+    },
+    "designerId": "21f4ba7c-9c9a-452a-9761-1705edd013be",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "app/data/temasdeldia.json"
+            },
+            "designerId": "8f91e054-2c33-4869-a401-6aa9f05c5fb2",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "idProperty": "tag",
+                        "root": "news"
+                    },
+                    "designerId": "9e7646ea-7a9a-4477-8fbc-f81b98c8714a"
+                }
+            ]
+        }
+    ]
+}
